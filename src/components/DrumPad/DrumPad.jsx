@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './DrumPad.module.css';
 
 const DrumPad = (props) => (
-    <div
+    <button
         className = {styles.drumPad}
+        onClick = {(e)=> props.playSound(e, props.source)}
     >
         {props.inst}
-    </div>
+    </button>
 )
 
 export default DrumPad;
