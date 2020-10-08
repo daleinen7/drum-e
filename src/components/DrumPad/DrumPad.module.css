@@ -1,0 +1,7 @@
+.drumPad {
+    width: 140px;
+    height: 100px;
+    background-color: maroon;
+    border: 1px solid rgb(94, 5, 22);
+    border-radius: 4px;
+}
