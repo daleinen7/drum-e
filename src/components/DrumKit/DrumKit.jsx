@@ -9,10 +9,10 @@ import snare from '../../sounds/snare.mp3';
 
 const DrumKit = (props) => (
     <div className={styles.drumKit}>
-        <DrumPad source={kik} playSound={props.playSound} playing={false} inst="kick"/>
-        <DrumPad source={snare} playSound={props.playSound} playing={false} inst="snare"/>
-        <DrumPad source={hh} playSound={props.playSound} playing={false} inst="hat"/>
-        <DrumPad source={crnch} playSound={props.playSound} playing={false} inst="crunch"/>
+        <DrumPad code={65} source={kik} playSound={props.playSound} playing={false} inst="kick"/>
+        <DrumPad code={83} source={snare} playSound={props.playSound} playing={false} inst="snare"/>
+        <DrumPad code={68} source={hh} playSound={props.playSound} playing={false} inst="hat"/>
+        <DrumPad code={70} source={crnch} playSound={props.playSound} playing={false} inst="crunch"/>
     </div>
 )
 

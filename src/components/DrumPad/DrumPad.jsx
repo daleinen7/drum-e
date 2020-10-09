@@ -5,6 +5,7 @@ const DrumPad = (props) => (
     <button
         className = {styles.drumPad}
         onClick = {(e)=> props.playSound(e, props.source)}
+        onKeyPress = {(e)=> props.playSound(e, props.source)}
     >
         {props.inst}
     </button>
